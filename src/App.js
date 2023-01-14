@@ -1,7 +1,14 @@
 import React from 'react'
-
-export const App = () => {
+import Session2 from './components/Session2'
+import Footer from './components/Footer'
+import "./scss/index.css"
+const App = () => {
   return (
-    <div>App</div>
+    <>
+   <Session2 />
+   <Footer />
+    </>
   )
 }
+
+export default App
