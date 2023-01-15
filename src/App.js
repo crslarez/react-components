@@ -1,7 +1,13 @@
-import React from 'react'
+import Creations from './components/Creations';
+import CreationsDesktop from './components/CreationsDesktop';
 
-export const App = () => {
-  return (
-    <div>App</div>
-  )
+const App = () => {
+    return (
+        <>
+        <Creations />
+        <CreationsDesktop />  
+        </>
+    )
 }
+
+export default App
