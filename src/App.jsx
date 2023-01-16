@@ -1,10 +1,14 @@
 import { Component } from "react";
-import Header from "./layout/Header";
+import Creations from "./components/Creations";
+import CreationsDesktop from "./components/CreationsDesktop";
 
-class App extends Component {
-  render() {
-    return <Header />;
-  }
-}
+const App = () => {
+  return (
+    <>
+      <Creations />
+      <CreationsDesktop />
+    </>
+  );
+};
 
 export default App;
