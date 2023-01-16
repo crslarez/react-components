@@ -1,9 +1,9 @@
 import { Component } from "react";
-import Header from "./layout/Header";
+import CreationsDesktop from "./components/CreationsDesktop";
 
 class App extends Component {
   render() {
-    return <Header />;
+    return <CreationsDesktop />
   }
 }
 
