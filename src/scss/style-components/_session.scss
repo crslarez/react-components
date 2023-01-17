@@ -22,6 +22,7 @@ $Very-Dark-Gray: hsl(0, 0%, 41%);
 }
 
 
+
 .session2__div_img {
     width:500px;
     height:300px;
@@ -30,6 +31,8 @@ $Very-Dark-Gray: hsl(0, 0%, 41%);
     background-size:cover;
     background-position:center center;
     margin-top: 20px;
+   margin-right: 350px;
+    
 
 }
 
@@ -60,6 +63,7 @@ $Very-Dark-Gray: hsl(0, 0%, 41%);
     margin-left: 350px;
     @include paddings(10);
     background-color: $White;
+    
 
     
 }
