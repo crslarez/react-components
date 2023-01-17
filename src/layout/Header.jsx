@@ -1,17 +1,56 @@
-import { Component } from "react";
-import { Nav } from "react-bootstrap";
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Component, useState } from "react";
+import "./Header.css";
+// class Header extends Component {
+//   render() {
+//     const [isOpen, setIsOpen] = useState(false)
+//     return (
+//       <>
+//         <div className="navbar">
+//           <div className="nav-logo">loopstudio</div>
+//           <div className={`nav-items ${isOpen && "open"}`}>
+//             <a href="#">About</a>
+//             <a href="#">Carrers</a>
+//             <a href="#">Events</a>
+//             <a href="#">Products</a>
+//             <a href="#">Support</a>
+//           </div>
+//           <div className={`nav-toogle ${isOpen && "open"}`} id="burger" onClick={() => setIsOpen(!isOpen)}>
+//             <span></span>
+//             <span></span>
+//             <span></span>
+//           </div>
+//         </div>
+//       </>
+//     );
+//   }
+// }
 
-class Header extends Component {
-  render() {
+import React from 'react'
+
+export const Header = () => {
+  const [isOpen, setIsOpen] = useState(false)
     return (
       <>
-       <h1>header</h1>
+        <div className="navbar">
+          <div className="nav-logo">loopstudio
+            <h2 className="text-navbar">IMMERSIVE <h2>EXPERIENCES</h2> <h2>THAT DELIVER</h2></h2>
+          </div>
+          <div className={`nav-items ${isOpen && "open"}`}>
+            <a href="#">About</a>
+            <a href="#">Carrers</a>
+            <a href="#">Events</a>
+            <a href="#">Products</a>
+            <a href="#">Support</a>
+          </div>
+          <div className={`nav-toogle ${isOpen && "open"}`} id="burger" onClick={() => setIsOpen(!isOpen)}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
       </>
     );
-  }
 }
+
 
 export default Header;
