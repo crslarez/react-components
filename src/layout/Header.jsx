@@ -33,7 +33,7 @@ export const Header = () => {
       <>
         <div className="navbar">
           <div className="nav-logo">loopstudio
-            <h2 className="text-navbar">IMMERSIVE <h2>EXPERIENCES</h2> <h2>THAT DELIVER</h2></h2>
+            <h2 className="text-navbar">IMMERSIVE EXPERIENCES THAT DELIVER</h2>
           </div>
           <div className={`nav-items ${isOpen && "open"}`}>
             <a href="#">About</a>
