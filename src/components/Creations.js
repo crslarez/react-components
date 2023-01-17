@@ -11,12 +11,12 @@ const Creations = () => {
                 {cards.map((card) => {
                     const { id, image, title } = card
                     return (
-                        <artricle key={id}>
+                        <div key={id}>
                             <div>
                                 <img src={image} alt ="creations card" />
                             </div>
                             <h3>{title}</h3>
-                        </artricle>
+                        </div>
                     )
                 })}
             </section>

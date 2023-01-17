@@ -5,7 +5,7 @@ import React from 'react';
 const session2 = () => {
   return (
     <>
-    <div classname="session2">
+    <div className="session2">
       <div className='session2__div_img'></div>
       <div className='session2__div_p'>
 <div className='session2__div_info'>
