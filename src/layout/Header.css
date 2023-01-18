@@ -34,10 +34,14 @@
 
 .nav-toogle {
     display: none;
+    
 }
 
 .session2 {
     margin-top: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media (max-width:678px) {
